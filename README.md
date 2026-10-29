@@ -6,7 +6,7 @@
 
 <p align="center">
   <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
-  <a href="https://github.com/ishandutta2007/Awesome-Cloud-Web-Hosting/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Cloud-Web-Hosting?style=social" alt="GitHub Stars" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Cloud-Web-Hosting/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Cloud-Web-Hosting?style=social" alt="GitHub_Stars" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-Cloud-Web-Hosting/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Cloud-Web-Hosting?style=social" alt="GitHub Forks" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-Cloud-Web-Hosting/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue.svg?style=flat-square" alt="License" /></a>
   <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
@@ -62,7 +62,7 @@ The global cloud web hosting and hosting services market is valued at approximat
 
 ## 💻 Open-Source GitHub Projects
 
-Curated open-source cloud hosting platforms, self-hosted PaaS solutions, and web control panels, **sorted descending by GitHub star count**. Each repository badge links directly to its live stargazers:
+Curated open-source cloud hosting platforms, self-hosted PaaS solutions, and web control panels, **sorted descending by GitHub Stars_Count**. Each repository badge links directly to its live stargazers:
 
 ### 1. **[Coolify](https://github.com/coollabsio/coolify)** [![Stars](https://img.shields.io/github/stars/coollabsio/coolify?style=social&color=white)](https://github.com/coollabsio/coolify/stargazers)
 - **Category:** Self-Hosted PaaS & Heroku / Netlify Alternative (Apache-2.0)
@@ -168,7 +168,7 @@ Contributions are warmly welcomed! Help keep this directory accurate, objective,
 3. 📝 **Add or update entries** in `README.md` following our standard tabular/card structure:
    - Provide concrete starting prices and exact free trial / sandbox limits (avoid generic terms).
    - Link official documentation and transparent pricing pages.
-   - For open-source repos, include the repository URL, description, and star badge.
+   - For open-source repos, include the repository URL, description, and Stars_Badge.
 4. 🚀 **Commit your changes** (`git commit -m 'feat: add platform xyz'`).
 5. 📬 **Open a Pull Request** with a brief summary of additions and sources.
 
