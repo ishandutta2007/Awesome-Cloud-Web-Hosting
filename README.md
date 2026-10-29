@@ -32,78 +32,30 @@ Contributions welcome! Open a PR to add/update entries. Keep descriptions factua
 
 ## Table of Contents
 
+- [Sector Overview & Market Dynamics](#sector-overview--market-dynamics)
 - [SaaS/Hosted Platforms](#saas-hosted-platforms)
-
 - [Open-Source GitHub Projects](#open-source-github-projects)
-
 - [How to Contribute](#how-to-contribute)
-
 - [Disclaimer](#disclaimer)
 
+## Sector Overview & Market Dynamics
 
+The global cloud web hosting and hosting services market is valued at approximately $135B–$150B (tracking toward $300B+ over the next decade). The sector exhibits a bifurcated market structure: it is **heavily concentrated** at the foundational hyperscale cloud infrastructure layer (where AWS, Microsoft Azure, and Google Cloud command ~65%+ market share), but **moderately to highly fragmented** across the retail, managed PaaS, and application hosting layers where specialized providers compete aggressively on developer experience, workflow tooling, CMS optimization, and support.
 
 ## SaaS/Hosted Platforms
 
-
-
-- **[WP Engine](https://wpengine.com/)**
-
-  **Managed WordPress hosting** with Genesis framework, StudioPress themes, Smart Plugin Manager, and Local development tool. SOC2 Type 2 and ISO 27001 compliant; enterprise SLAs available . **Pricing**: Essential from $30/month (1 site, 25K visits); Growth and Scale tiers scale with sites and traffic; negotiated multi-year discounts common . **Free tier**: None; 60-day money-back guarantee. **Best for**: enterprises and agencies wanting a safe, brand-name managed WordPress host with premium plugin bundles and compliance documentation.
-
-
-
-- **[Kinsta](https://kinsta.com/)**
-
-  **Managed WordPress hosting** on Google Cloud C2 compute-optimized VMs. MyKinsta dashboard with Git push deploys, SSH, WP-CLI, one-click staging and site cloning, and APM included on every plan . **Pricing**: Single 35K at $35/month (1 install, 10GB storage, 125GB CDN, 25K visits); Agency plans available . **Free tier**: None; 30-day money-back guarantee. **Best for**: developer-led teams and agencies wanting the cleanest managed WordPress UX with transparent visit limits and no surprise overage bills.
-
-
-
-- **[Pantheon](https://pantheon.io/)**
-
-  **Web hosting platform for WordPress, Drupal, and Next.js** with Dev/Test/Live multi-environment workflow, Git-based deployment, and Custom Upstreams for multi-site portfolios . **Pricing**: Basic site from $55/month; Performance XL at $1,150/month; Gold workspace at $500/month for agencies . **Free tier**: Sandbox sites available. **Best for**: large editorial teams and enterprises with mature DevOps processes needing staged review workflows and multi-CMS support.
-
-
-
-- **[Cloudways](https://www.cloudways.com/)**
-
-  **Managed cloud hosting** on top of DigitalOcean, AWS, Google Cloud, and Vultr. **Pricing**: Tiered by server size and provider; typically lower than premium managed WordPress. **Free tier**: Trial available. **Best for**: solo founders and developers wanting managed infrastructure without premium managed WordPress pricing.
-
-
-
-- **[Platform.sh](https://platform.sh/)**
-
-  **Platform-as-a-Service (PaaS)** with Git-based workflows, instant preview environments cloned from production, autoscaling, and 70+ language/framework support. SOC 2 and PCI DSS Level 1 compliant; 99.99% uptime SLA for enterprise . **Pricing**: Development environments from ~€12.25/month; production usage-based via Upsun . **Free tier**: 30-day free trial. **Best for**: development teams wanting a polyglot PaaS with strong GitOps and preview environment workflows.
-
-
-
-- **[SiteGround](https://www.siteground.com/)**
-
-  **Shared and cloud hosting** with WordPress-optimized plans, staging, and CDN. **Pricing**: Tiered shared plans; cloud hosting quote-based. **Free tier**: None. **Best for**: small businesses and bloggers wanting affordable, reliable shared hosting with WordPress tooling.
-
-
-
-- **[Nexcess](https://www.nexcess.net/)**
-
-  **Managed hosting** for WordPress, WooCommerce, and Magento. **Pricing**: Quote-only; tiered by application and traffic. **Free tier**: None. **Best for**: eCommerce merchants on WooCommerce or Magento wanting application-specific managed hosting.
-
-
-
-- **[Acquia Cloud](https://www.acquia.com/)**
-
-  **Enterprise Drupal hosting** with Cloud Platform and Site Factory for multi-site portfolios. **Pricing**: Quote-only; enterprise contracts. **Free tier**: None. **Best for**: large Drupal enterprises needing governed multi-site management and enterprise support.
-
-
-
-- **[Hostinger](https://www.hostinger.com/)**
-
-  **Budget-friendly shared, VPS, and cloud hosting** with WordPress tooling and AI assistant. **Pricing**: Tiered; historically among the lowest entry prices. **Free tier**: None. **Best for**: budget-conscious individuals and small businesses wanting low-cost hosting with modern tooling.
-
-
-
-- **[Shopify Secure Hosting](https://www.shopify.com/)**
-
-  **Fully managed commerce hosting** included with Shopify subscriptions. Shopify runs on Google Cloud (its preferred provider) plus private infrastructure, handling 284M peak requests per minute and $4.6M peak sales per minute during BFCM 2024 with 99.9% uptime . **Pricing**: Included with Shopify plans (from $39/month Basic). **Free tier**: None beyond trial. **Best for**: merchants wanting zero infrastructure management and proven peak-scale commerce hosting.
-
+| Platform | Revenue / Valuation | Starting Pricing | Free Tier / Trial Limits | Description & Best For |
+| :--- | :--- | :--- | :--- | :--- |
+| **[Shopify Secure Hosting](https://www.shopify.com/)** | ~$209.5B Market Cap ($11.6B FY25 Revenue) | $39/mo (Basic plan; $5/mo Starter) | 3-day free trial (no credit card required; store operates in sandbox/private mode with checkout inactive until plan selection) + $1/mo promo for first 3 mos | Fully managed commerce hosting with unmetered bandwidth, automated SSL, and 99.9% uptime SLA. Best for merchants wanting zero infrastructure management and peak-scale commerce hosting. |
+| **[Acquia Cloud](https://www.acquia.com/)** | $1B Valuation ($350M+ ARR) | Quote-based (custom annual contract; historically from ~$141/mo) | 14-day free trial (no credit card required; full 3-environment Dev/Stage/Prod stack with built-in Cloud IDE and Drupal templates) | Enterprise Drupal WebOps platform with multi-site governance and 99.99% SLA. Best for large enterprises and digital experience portfolios on Drupal. |
+| **[WP Engine](https://wpengine.com/)** | $1B+ Valuation (~$400M ARR) | $30/mo (Essential plan, billed annually) | No free tier; 60-day money-back guarantee (1 site, 25K visits, 10GB storage limit on entry tier) | Managed WordPress hosting platform with Genesis framework, SOC2/ISO 27001 compliance, and Git integration. Best for agencies and enterprises requiring enterprise SLAs and governance. |
+| **[Pantheon](https://pantheon.io/)** | $1B+ Valuation ($100M–$250M ARR) | $55/mo (Basic Site plan) | Free forever Sandbox tier (up to 2 sandbox sites per account on `*.pantheonsite.io` subdomains, interstitial warning banner, dev/test/live workflows; no custom domain) | Container-based WebOps platform for WordPress, Drupal, and Next.js with Git-based multi-environment workflows. Best for development agencies and enterprise editorial teams. |
+| **[Hostinger](https://www.hostinger.com/)** | ~$300M+ ARR (€275.4M FY25 Revenue) | $2.99/mo (Single/Premium plan with multi-year commitment; renews at regular rate) | No free hosting plan; 30-day money-back guarantee (includes 1 website, 50GB SSD, ~10K monthly visits). Standalone AI Website Builder has a 7-day free trial without credit card. | Budget-friendly shared, VPS, and cloud hosting with hPanel and AI tooling. Best for cost-conscious creators and small businesses wanting high-value hosting. |
+| **[Cloudways](https://www.cloudways.com/)** | $350M Valuation (Acquired by DigitalOcean; ~$52M+ ARR) | $11/mo (DigitalOcean 1GB RAM / 1 vCPU server) | 3-day free trial (no credit card required; restricted to temporary subdomains and standard compute resources for testing 1-click installs) | Managed cloud hosting layer over DigitalOcean, AWS, and GCP with staging and automated backups. Best for developers and agencies wanting cloud flexibility without sysadmin overhead. |
+| **[SiteGround](https://www.siteground.com/)** | $100M+ Est. ARR (Profitable, Bootstrapped) | $2.99/mo intro ($17.99/mo renewal for StartUp plan) | No free tier; 30-day money-back guarantee (includes 1 website, 10GB storage, ~10,000 monthly visits, free SSL, and daily backup). Standalone Website Builder offers 14-day trial. | Shared and cloud hosting optimized for WordPress with custom Site Tools and speed caching. Best for small businesses and publishers seeking dependable support and performance. |
+| **[Nexcess](https://www.nexcess.net/)** | $100M–$500M Est. ARR (Parent: Liquid Web) | $21/mo (Spark plan for managed WordPress/WooCommerce) | No free tier; 30-day money-back guarantee (includes 1 site, 15GB storage, 2TB bandwidth). Free staging and automated plugin testing included. | Application-tuned managed hosting for WordPress, WooCommerce, and Magento with auto-scaling. Best for eCommerce merchants requiring dynamic traffic handling. |
+| **[Platform.sh](https://platform.sh/)** | $180M+ Funding (~$40M–$57M ARR) | €12.25/mo (~$13.50/mo for Dev environment; production usage-based via Upsun) | 15-day free trial via Upsun (no credit card required; capped at 1 project, 2 running environments, 4.5 CPUs, 12GB RAM, and 20GB network storage) | Polyglot GitOps PaaS supporting 70+ languages/frameworks with instant production-clone preview branches. Best for modern dev teams seeking unified CI/CD hosting infrastructure. |
+| **[Kinsta](https://kinsta.com/)** | ~$25M–$37M Est. ARR (Bootstrapped) | $35/mo (Single 35k plan; includes 1 site, 25K visits, 10GB storage) | First month free trial on Single 35k/Single 20GB plans (30 days at $0; fair-use resource caps apply; overages billed) + 30-day money-back guarantee; 100 free static sites forever. | High-performance managed WordPress and application hosting built on Google Cloud C2 VMs with MyKinsta dashboard. Best for developers and agencies wanting top-tier performance and clean UX. |
 
 
 ## Open-Source GitHub Projects
