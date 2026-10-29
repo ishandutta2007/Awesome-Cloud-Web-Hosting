@@ -1,48 +1,49 @@
-# Awesome-Cloud-Web-Hosting
+# Awesome Cloud Web Hosting 🚀
 
-# Awesome-Cloud-Web-Hosting
+<div align="center">
 
-**Top Cloud Web Hosting (Opensource) 🌟 Star if you like it! 🌟**
+<img src="./assets/banner.svg" alt="Awesome Cloud Web Hosting Banner" width="100%" />
 
+<p align="center">
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Cloud-Web-Hosting/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Cloud-Web-Hosting?style=social" alt="GitHub Stars" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Cloud-Web-Hosting/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Cloud-Web-Hosting?style=social" alt="GitHub Forks" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Cloud-Web-Hosting/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue.svg?style=flat-square" alt="License" /></a>
+  <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
+</p>
 
+<p align="center">
+  <strong>🌟 Top Cloud Web Hosting, Self-Hosted PaaS & Modern Control Panels 🌟</strong><br>
+  <em>A curated directory of premier commercial SaaS hosting providers and powerful open-source deployment platforms.</em>
+</p>
 
-**Curated List of SaaS Products & Open-Source GitHub Projects**
+</div>
 
-*Focused on Managed Hosting, Platform-as-a-Service, Control Panels & Self-Hosted Deployment Infrastructure*
+---
 
-**Last updated: October 2026**
+## 📑 Table of Contents
 
+- [🎯 Sector Overview & Market Dynamics](#-sector-overview--market-dynamics)
+- [☁️ SaaS & Hosted Platforms](#️-saas--hosted-platforms)
+- [💻 Open-Source GitHub Projects](#-open-source-github-projects)
+- [🛠️ Architecture & Deployment Trade-offs](#️-architecture--deployment-trade-offs)
+- [🤝 How to Contribute](#-how-to-contribute)
+- [💖 Support](#-support)
+- [📈 Star History](#-star-history)
+- [⚠️ Disclaimer](#️-disclaimer)
 
+---
 
-This repository tracks notable **SaaS platforms** and **open-source projects** for **Cloud Web Hosting**. These tools enable developers and organizations to deploy, manage, and scale web applications—from fully managed hosting platforms with Git-based workflows, staging environments, and enterprise SLAs to self-hosted control panels and PaaS frameworks that give teams complete control over their infrastructure.
+## 🎯 Sector Overview & Market Dynamics
 
+The global cloud web hosting and hosting services market is valued at approximately **$135B–$150B** (tracking toward **$300B+** over the next decade). The sector exhibits a bifurcated market structure:
 
+- **Infrastructure Layer (Heavily Concentrated / Oligopolistic):** The foundational hyperscale compute and bare-metal layer is dominated by tech giants—chiefly Amazon Web Services (AWS), Microsoft Azure, and Google Cloud Platform (GCP)—commanding over 65% aggregate infrastructure market share.
+- **Application & Retail Layer (Moderately to Highly Fragmented):** Across managed WordPress, polyglot PaaS, developer-centric clouds, and traditional server panels, hundreds of commercial hosts and open-source frameworks compete intensely. Differentiation hinges upon developer experience (DX), GitOps CI/CD pipelines, staging previews, enterprise SLAs, and security hardening.
 
-**Examples** include WP Engine, Kinsta, Pantheon, Cloudways, Platform.sh, SiteGround, Nexcess, Acquia Cloud, Hostinger, and Shopify Secure Hosting (the category leaders in commercial space).
+---
 
-
-
-**Open-source emphasis**: This section is expanded with every relevant project for self-hosting, server management, and open hosting infrastructure. **Critical note**: True open-source managed hosting—a turnkey platform with infrastructure, support, and SLAs—does not exist as a SaaS replacement. Open-source projects provide **control panels** (server management UI) and **self-hosted PaaS** (deployment platforms you operate yourself). You own the servers, security, and uptime.
-
-
-
-Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites.
-
-
-
-## Table of Contents
-
-- [Sector Overview & Market Dynamics](#sector-overview--market-dynamics)
-- [SaaS/Hosted Platforms](#saas-hosted-platforms)
-- [Open-Source GitHub Projects](#open-source-github-projects)
-- [How to Contribute](#how-to-contribute)
-- [Disclaimer](#disclaimer)
-
-## Sector Overview & Market Dynamics
-
-The global cloud web hosting and hosting services market is valued at approximately $135B–$150B (tracking toward $300B+ over the next decade). The sector exhibits a bifurcated market structure: it is **heavily concentrated** at the foundational hyperscale cloud infrastructure layer (where AWS, Microsoft Azure, and Google Cloud command ~65%+ market share), but **moderately to highly fragmented** across the retail, managed PaaS, and application hosting layers where specialized providers compete aggressively on developer experience, workflow tooling, CMS optimization, and support.
-
-## SaaS/Hosted Platforms
+## ☁️ SaaS & Hosted Platforms
 
 | Platform | Revenue / Valuation | Starting Pricing | Free Tier / Trial Limits | Description & Best For |
 | :--- | :--- | :--- | :--- | :--- |
@@ -57,93 +58,146 @@ The global cloud web hosting and hosting services market is valued at approximat
 | **[Platform.sh](https://platform.sh/)** | $180M+ Funding (~$40M–$57M ARR) | €12.25/mo (~$13.50/mo for Dev environment; production usage-based via Upsun) | 15-day free trial via Upsun (no credit card required; capped at 1 project, 2 running environments, 4.5 CPUs, 12GB RAM, and 20GB network storage) | Polyglot GitOps PaaS supporting 70+ languages/frameworks with instant production-clone preview branches. Best for modern dev teams seeking unified CI/CD hosting infrastructure. |
 | **[Kinsta](https://kinsta.com/)** | ~$25M–$37M Est. ARR (Bootstrapped) | $35/mo (Single 35k plan; includes 1 site, 25K visits, 10GB storage) | First month free trial on Single 35k/Single 20GB plans (30 days at $0; fair-use resource caps apply; overages billed) + 30-day money-back guarantee; 100 free static sites forever. | High-performance managed WordPress and application hosting built on Google Cloud C2 VMs with MyKinsta dashboard. Best for developers and agencies wanting top-tier performance and clean UX. |
 
+---
 
-## Open-Source GitHub Projects
+## 💻 Open-Source GitHub Projects
 
+Curated open-source cloud hosting platforms, self-hosted PaaS solutions, and web control panels, **sorted descending by GitHub star count**. Each repository badge links directly to its live stargazers:
 
+### 1. **[Coolify](https://github.com/coollabsio/coolify)** [![Stars](https://img.shields.io/github/stars/coollabsio/coolify?style=social&color=white)](https://github.com/coollabsio/coolify/stargazers)
+- **Category:** Self-Hosted PaaS & Heroku / Netlify Alternative (Apache-2.0)
+- **Features:** Self-hostable, all-in-one PaaS supporting Git push deployments, native Docker & Docker Compose stacks, one-click databases (PostgreSQL, MySQL, Redis, MongoDB), preview environments, SSL automation, and server health monitoring.
+- **Tech Stack:** PHP (Laravel), Livewire, Docker.
+- **Best For:** Developers and teams desiring a modern, self-hosted cloud platform with zero vendor lock-in.
 
-- **[Slate](https://github.com/CloudzyVPS/slate)**
+### 2. **[Dokku](https://github.com/dokku/dokku)** [![Stars](https://img.shields.io/github/stars/dokku/dokku?style=social&color=white)](https://github.com/dokku/dokku/stargazers)
+- **Category:** Docker-Powered Mini-Heroku PaaS (MIT)
+- **Features:** The smallest, most mature PaaS implementation you've ever seen. Provides `git push` deployments driven by Docker buildpacks, Herokuish, or custom Dockerfiles, with a rich plugin ecosystem (Let's Encrypt, Postgres, MariaDB, Redis).
+- **Tech Stack:** Bash, Go, Docker.
+- **Best For:** CLI-centric developers wanting lightweight, Heroku-style simplicity on single VPS instances.
 
-  **Lean, self-hosted web hosting control panel** (Go, license per repo) — **a modern, security-first cPanel alternative** in a single ~13 MB Go binary using ~5 MB RAM idle . **Features**: Sites with nginx vhosts and isolated users; PHP-FPM with per-site version switching (8.1/8.2/8.3); one-click Let's Encrypt SSL with auto-renewal; MySQL/MariaDB databases; web file manager; BIND DNS zones; Postfix + Dovecot email; audit log; first-run setup . **Security architecture**: unprivileged web process talks to a root agent over a Unix socket using a fixed set of typed operations—no arbitrary command path . **Tech stack**: Go, server-rendered templates + htmx. **Deploy**: Ubuntu 24.04 LTS with root access; per-service installers included . **Trade-off**: **Early release (v0.x)**—the project explicitly states it is not yet production-hardened for commercial multi-customer hosting: no firewall/fail2ban automation, no reseller UI, no spam filtering or webmail, minimal test coverage . **Best for**: developers and homelab operators wanting a lightweight, auditable control panel on their own Ubuntu server.
+### 3. **[Cockpit](https://github.com/cockpit-project/cockpit)** [![Stars](https://img.shields.io/github/stars/cockpit-project/cockpit?style=social&color=white)](https://github.com/cockpit-project/cockpit/stargazers)
+- **Category:** Web-Based Linux Server Administration & System Dashboard (LGPL-2.1)
+- **Features:** Clean, lightweight interactive web interface for Linux servers. Direct systemd integration, storage and LVM management, network configuration, container management via Podman, firewall rules, and interactive terminal sessions.
+- **Tech Stack:** C, JavaScript, Python, systemd.
+- **Best For:** Sysadmins and developers seeking official, modular web management for Linux cloud hosts without proprietary daemons.
 
+### 4. **[CapRover](https://github.com/caprover/caprover)** [![Stars](https://img.shields.io/github/stars/caprover/caprover?style=social&color=white)](https://github.com/caprover/caprover/stargazers)
+- **Category:** Automated PaaS for Applications & Databases (Apache-2.0)
+- **Features:** Extremely easy-to-use PaaS built on Docker Swarm. Supports multi-container orchestration, automatic SSL via Let's Encrypt, web GUI dashboard, CLI deployment tooling, and a 1-click application marketplace.
+- **Tech Stack:** TypeScript, Node.js, Docker Swarm, Nginx.
+- **Best For:** Solopreneurs and teams wanting effortless containerized deployments with cluster-ready scalability.
 
+### 5. **[OpenPanel](https://github.com/openpanel-dev/openpanel)** [![Stars](https://img.shields.io/github/stars/openpanel-dev/openpanel?style=social&color=white)](https://github.com/openpanel-dev/openpanel/stargazers)
+- **Category:** Modern Next-Gen Hosting Control Panel (GPL-3.0)
+- **Features:** High-performance, Docker-isolated web hosting panel designed as a secure, resource-controlled cPanel alternative. Each user/domain runs in dedicated Docker containers with resource limits (CPU/RAM/IOPS), multi-PHP version switches, Nginx/Apache/Varnish caching, and a sleek modern UI.
+- **Tech Stack:** Python, Go, Docker, Nginx.
+- **Best For:** Hosting providers and developers seeking modern Docker sandboxing with traditional web hosting panel workflows.
 
-- **[Laranode](https://atomgit.com/gh_mirrors/la/laranode)**
+### 6. **[Webmin](https://github.com/webmin/webmin)** [![Stars](https://img.shields.io/github/stars/webmin/webmin?style=social&color=white)](https://github.com/webmin/webmin/stargazers)
+- **Category:** Comprehensive Unix/Linux System Administration Panel (BSD-3-Clause)
+- **Features:** The grandfather of open-source server control panels. Configures Apache, BIND DNS, Postfix mail, disk quotas, users, and cron jobs directly through browser interfaces by modifying native configuration files. Complemented by Virtualmin for web hosting management.
+- **Tech Stack:** Perl, Unix system interfaces.
+- **Best For:** System administrators requiring comprehensive, granular control over standard Linux distribution configs.
 
-  **Open-source hosting control panel** (license per repo) — **a cPanel/Plesk alternative for VPS and dedicated servers** with a broader feature set than Slate . **Features**: Multi-account support with RBAC; website management; Let's Encrypt SSL; built-in file manager; live system stats; LAMP stack administration; PHP manager (7.4–8.5) with per-site assignment; MySQL management; UFW firewall management from UI; **backup manager** supporting local, S3-compatible, and SFTP destinations with retention schedules and typed-confirmation restores with 7-day safety snapshots . **Tech stack**: Laravel (PHP), Docker support. **Deploy**: Fresh Ubuntu 24.04+ VPS (1 vCPU, 2GB RAM, 10GB disk minimum); quick install script or Docker Compose . **Trade-off**: **Requires a fresh server**—not designed for existing installations. Feature completeness varies by deployment; verify production readiness for your use case. **Best for**: developers and small hosting operators wanting a free, self-hosted control panel with backup and firewall management built in.
+### 7. **[Tsuru](https://github.com/tsuru/tsuru)** [![Stars](https://img.shields.io/github/stars/tsuru/tsuru?style=social&color=white)](https://github.com/tsuru/tsuru/stargazers)
+- **Category:** Enterprise Open-Source Platform-as-a-Service (BSD-3-Clause)
+- **Features:** Battle-tested, enterprise PaaS supporting Kubernetes and Docker backends. Offers autoscaling, multi-tenancy, service binding (databases, queues), Git-based deploy workflows, and detailed telemetry for high-scale enterprise clusters.
+- **Tech Stack:** Go, Kubernetes, Docker.
+- **Best For:** Organizations and engineering teams operating containerized PaaS platforms on top of Kubernetes.
 
+### 8. **[HestiaCP](https://github.com/hestiacp/hestiacp)** [![Stars](https://img.shields.io/github/stars/hestiacp/hestiacp?style=social&color=white)](https://github.com/hestiacp/hestiacp/stargazers)
+- **Category:** Fast, Lightweight Web Server Control Panel (GPL-3.0)
+- **Features:** High-performance, clean control panel for Debian/Ubuntu servers. Features fast Nginx + PHP-FPM / Apache caching stacks, automated Let's Encrypt certificates, multi-PHP selector, DNS/Mail server clusters, and native backup managers.
+- **Tech Stack:** PHP, Bash, Nginx, Apache.
+- **Best For:** Webmasters, digital agencies, and developers running high-speed LAMP/LEMP WordPress hosting setups on VPS nodes.
 
+### 9. **[aaPanel](https://github.com/aaPanel/aaPanel)** [![Stars](https://img.shields.io/github/stars/aaPanel/aaPanel?style=social&color=white)](https://github.com/aaPanel/aaPanel/stargazers)
+- **Category:** Modular Web Hosting Server Manager (GPL-3.0)
+- **Features:** Highly intuitive server management suite with one-click LNMP/LAMP stack installations, visual database management, FTP managers, crontab automation, and integrated app store modules.
+- **Tech Stack:** Python, Shell script, Web GUI.
+- **Best For:** Developers desiring a visual, component-rich control panel with instant extension installations.
 
-- **[Miabi](https://github.com/miabi-io/miabi)**
+### 10. **[Froxlor](https://github.com/froxlor/froxlor)** [![Stars](https://img.shields.io/github/stars/froxlor/froxlor?style=social&color=white)](https://github.com/froxlor/froxlor/stargazers)
+- **Category:** Lightweight Server Management & Hosting Panel (GPL-2.0)
+- **Features:** Developed by experienced Linux administrators to be lightweight and strictly standards-compliant. Manages virtual hosts, multi-PHP configurations, Let's Encrypt SSL, directory protection, quotas, and email accounts.
+- **Tech Stack:** PHP, MySQL.
+- **Best For:** Administrators looking for a lightweight, transparent hosting management panel with no bloat.
 
-  **Self-hosted PaaS and application platform** (Go, license per repo) — **the most feature-complete open-source PaaS** in this list, comparable in ambition to Platform.sh or Heroku . **Features**: **Git push deploy**, GitOps pull-based reconciliation, pipelines-as-code CI/CD; multi-node clustering with Docker Swarm; marketplace with official templates (WordPress, Ghost, Nextcloud, n8n, Gitea, Forgejo, databases); **workspaces and teams with RBAC** (Owner/Admin/Developer/Viewer); SSO (OAuth/OIDC; SAML/SCIM/LDAP in Enterprise); **built-in analytics** (HTTP traffic, p50/p95/p99 latency, privacy-first web analytics with no JS snippet); monitoring with Prometheus; scheduled backups to local/S3/MinIO; audit log with optional SIEM streaming . **Tech stack**: Go, Vue 3, PostgreSQL, Redis, Docker. **Deploy**: One-line installer (`curl | bash`) or Docker Compose; requires PostgreSQL, Redis, and Docker socket access . **Trade-off**: **Complex platform with enterprise-gated features** (SAML, SCIM, LDAP, custom roles, per-resource policies, SIEM streaming). Single-node deployment is functional; multi-node clustering adds operational complexity. **Best for**: developers and teams wanting a self-hosted Heroku/Platform.sh alternative with Git deploy, analytics, and team management.
+### 11. **[Miabi](https://github.com/miabi-io/miabi)** [![Stars](https://img.shields.io/github/stars/miabi-io/miabi?style=social&color=white)](https://github.com/miabi-io/miabi/stargazers)
+- **Category:** Self-Hosted PaaS with Built-in Analytics & RBAC (Proprietary / Open Source Core)
+- **Features:** Git push deploys, GitOps pull-based reconciliation, CI/CD pipelines, Docker Swarm clustering, marketplace templates, team RBAC, privacy-focused built-in web analytics, and audit logging.
+- **Tech Stack:** Go, Vue 3, PostgreSQL, Redis, Docker.
+- **Best For:** Teams wanting an integrated self-hosted PaaS with built-in telemetry and access controls.
 
-
-
-### Additional Strong Open-Source Options
-
-
-
-- **CapRover** — Open-source PaaS (Apache 2.0) with one-click app deployment, Let's Encrypt SSL, and Docker-based scaling. **Note**: Simpler than Miabi; no built-in analytics or team RBAC. **Best for**: developers wanting a lightweight self-hosted PaaS with minimal setup.
-
-- **Coolify** — Open-source, self-hostable Heroku/Netlify alternative (Apache 2.0). Supports Git push deploys, databases, and preview deployments. **Note**: Active community; verify production hardening for multi-tenant use. **Best for**: developers wanting a modern self-hosted deployment platform.
-
-- **Dokku** — Open-source PaaS (MIT) with Heroku-like `git push` deployments. **Note**: Docker-based; minimal UI; CLI-first. **Best for**: developers wanting Heroku-style deploys without a GUI.
-
-- **aaPanel** — Open-source hosting control panel (license per repo) with web server, database, and file management. **Note**: Chinese-origin project; evaluate security practices and update cadence carefully. **Best for**: users wanting a cPanel-style panel with broad feature coverage.
-
-
-
-**Frameworks for building custom systems**: Combine **Slate** or **Laranode** for server-level control panel management with **Miabi** or **CapRover** for application deployment and Git-based workflows, and **Coolify** for modern preview environments—creating a self-hosted hosting stack. **None of these provide managed infrastructure, support, or SLAs**—you own the servers, security patches, and uptime.
-
-
-
-## How to Contribute
-
-
-
-1. Fork the repo.
-
-2. Add/edit entries in `README.md` (follow existing format).
-
-3. Include: name, link, 1–2 sentence description, license (for open-source), and whether it's SaaS or open-source.
-
-4. Submit PR with a short explanation.
-
-
-
-Star the repo if you find it useful!
-
-
-
-## Disclaimer
-
-
-
-- This is a **community-curated** list — not exhaustive and not an endorsement.
-
-- Cloud hosting platforms handling websites and application data must comply with data protection regulations (GDPR, CCPA, etc.) and implement appropriate security controls.
-
-- **The "managed hosting service" vs. "control panel" vs. "self-hosted PaaS" distinction is absolute.** **WP Engine, Kinsta, Pantheon, Cloudways, Platform.sh, SiteGround, Nexcess, Acquia, Hostinger, and Shopify** are **managed hosting services**—they provide infrastructure, support, and SLAs. **Slate, Laranode, and aaPanel** are **control panels**—they manage servers you own and operate. **Miabi, CapRover, Coolify, and Dokku** are **self-hosted PaaS platforms**—they provide deployment workflows but you own the servers and uptime. **No open-source project provides a turnkey managed hosting replacement.**
-
-- **Open-source hosting shifts all operational responsibility to you.** When you self-host, you are responsible for server provisioning, security patching, backups, uptime, and incident response. **Managed hosts like WP Engine and Kinsta exist specifically to absorb this burden** . Evaluate your team's capacity before choosing an open-source path.
-
-- **Kinsta and WP Engine are the premium managed WordPress leaders.** Kinsta wins on developer UX and transparent pricing ; WP Engine wins on enterprise compliance and premium bundles . **Pantheon** is the choice for multi-environment editorial workflows or multi-CMS needs .
-
-- **Platform.sh is a true PaaS, not a control panel.** It provides Git-based workflows, instant preview environments, and polyglot support—but it is a commercial service, not open-source . **Miabi is the closest open-source analog**, but it requires self-hosting and lacks Platform.sh's support and SLAs.
-
-- **Shopify Secure Hosting is not a general-purpose host.** It is the infrastructure layer beneath Shopify's commerce platform—merchants do not deploy arbitrary applications . **Do not confuse it with a hosting service you can use for your own apps.**
-
-- **Pricing opacity varies.** Kinsta and WP Engine publish tiered pricing; Pantheon publishes site plans; Platform.sh publishes development pricing. Cloudways, Nexcess, Acquia, and enterprise tiers require sales contact. **Validate with direct vendor conversations against your traffic volume and site count.**
-
-- Self-hosted open-source solutions require proper server setup, security hardening, backup configuration, and ongoing maintenance. **Hosting infrastructure is security-critical**—ensure your deployment meets your organization's security standards before serving production traffic.
-
-
+### 12. **[Slate](https://github.com/CloudzyVPS/slate)** [![Stars](https://img.shields.io/github/stars/CloudzyVPS/slate)](https://github.com/CloudzyVPS/slate/stargazers)
+- **Category:** Minimalist, Auditable Control Panel (MIT / Open Core)
+- **Features:** Ultra-lean single-binary (~13 MB) Go control panel with ~5 MB idle RAM footprint. Sites with isolated Unix users, PHP-FPM version switching (8.1–8.3), automated SSL, MySQL databases, and socket-driven privileged operations.
+- **Tech Stack:** Go, server-rendered htmx templates.
+- **Best For:** Developers and homelab hobbyists wanting an auditable, minimal-overhead control panel on Ubuntu.
 
 ---
 
+## 🛠️ Architecture & Deployment Trade-offs
 
+```
+┌────────────────────────────────────────────────────────────────────────┐
+│                   Managed Hosting vs. Self-Hosted                      │
+├──────────────────────────────────┬─────────────────────────────────────┤
+│ ☁️ Commercial SaaS Platforms      │ 💻 Open-Source & Self-Hosted PaaS    │
+│ (WP Engine, Kinsta, Pantheon...) │ (Coolify, Dokku, CapRover...)       │
+├──────────────────────────────────┼─────────────────────────────────────┤
+│ • Full infrastructure management │ • Complete control of OS & hardware │
+│ • 99.9% to 99.99% uptime SLAs   │ • Zero vendor licensing fees        │
+│ • 24/7 dedicated tier-3 support  │ • You own backups, patches & uptime │
+│ • Automated compliance & SOC 2   │ • High flexibility with Docker/K8s │
+└──────────────────────────────────┴─────────────────────────────────────┘
+```
 
-**Made for developers, hosting operators, and organizations building transparent cloud hosting solutions.**
+> [!IMPORTANT]
+> **Operational Responsibility**: Deploying open-source control panels or PaaS frameworks shifts operational burdens entirely to you. You are responsible for hypervisor tuning, kernel patches, DNS propagation, SSL renewals, firewall automation (UFW/iptables), data replication, and disaster recovery.
 
-Let's make Cloud Web Hosting more open, data-driven, and developer-friendly.
+---
+
+## 🤝 How to Contribute
+
+Contributions are warmly welcomed! Help keep this directory accurate, objective, and up to date:
+
+1. 🍴 **Fork the repository** on GitHub.
+2. 🌿 **Create a feature branch** (`git checkout -b feature/add-new-platform`).
+3. 📝 **Add or update entries** in `README.md` following our standard tabular/card structure:
+   - Provide concrete starting prices and exact free trial / sandbox limits (avoid generic terms).
+   - Link official documentation and transparent pricing pages.
+   - For open-source repos, include the repository URL, description, and star badge.
+4. 🚀 **Commit your changes** (`git commit -m 'feat: add platform xyz'`).
+5. 📬 **Open a Pull Request** with a brief summary of additions and sources.
+
+---
+
+## 💖 Support
+
+If you find this curated directory helpful for your infrastructure decisions, consider supporting the maintenance and continuous updates of this project:
+
+- 🌟 **Star this repository** to help others discover it.
+- 🍴 **Fork and share** with colleagues, DevOps teams, and web developers.
+- ☕ **Sponsor the maintainer**: Support independent open-source research and tooling via the [GitHub Sponsors Dashboard](https://github.com/sponsors/ishandutta2007).
+
+---
+
+## 📈 Star History
+
+[![Star History Chart](https://star-history.dera.page/svg?repos=ishandutta2007/Awesome-Cloud-Web-Hosting&type=date&legend=top-left)](https://star-history.dera.page/#ishandutta2007/Awesome-Cloud-Web-Hosting&type=date&legend=top-left)
+
+---
+
+## ⚠️ Disclaimer
+
+- This is a **community-curated directory** provided for educational and architectural research purposes—it does not constitute an endorsement or commercial warranty.
+- Always review cloud hosting terms of service, acceptable use policies, and compliance standards (GDPR, CCPA, HIPAA, PCI-DSS) prior to deploying production workloads.
+- Pricing, trial policies, and product packaging change frequently. Always verify current tiers directly on respective platform websites.
+
+---
+
+<div align="center">
+  <sub>Built with ❤️ for developers, DevOps engineers, and cloud architects worldwide.</sub>
+</div>
